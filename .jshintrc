@@ -1,0 +1,4 @@
+{
+  "expr"    : true,
+  "globals" : { "alert": true, "fg": true, "Q": true }
+}

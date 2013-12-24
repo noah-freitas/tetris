@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#tetris-board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+#tetris-board .block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tetris-board .block[data-animating="true"] {
+    transition: top linear 0.5s;
+}
+
+#tetris-board .block[data-animating="false"] {
+    transition: top linear 0.0s;
+}
